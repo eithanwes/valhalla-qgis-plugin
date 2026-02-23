@@ -66,7 +66,7 @@ class ValhallaPlugin:
         # try a dock widget
         self.routing_dock = RoutingDockWidget(self.iface)
         self.iface.addDockWidget(Qt.DockWidgetArea.RightDockWidgetArea, self.routing_dock)
-        self.routing_dock.setVisible(True)
+        self.routing_dock.setVisible(False)
 
     def unload(self):
         """Unload the user interface."""
